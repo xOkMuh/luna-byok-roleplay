@@ -19,6 +19,25 @@ Most apps hand you a blank text box. Luna gives you a forge. Define your charact
 ![The Soul Factory Top](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-26-01-14-06-729_com.muh.luna.jpg)
 ![The Soul Factory Bottom](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-26-01-14-15-488_com.muh.luna.jpg)
 
+### 🗂️ Character Sheet Customization & Psychological Evolution
+Once a soul is forged, you gain access to an ultra-detailed, multi-page character sheet. You can granularly tweak or read their identity markers, custom speech profiles, and hidden traumas at any point during the campaign.
+
+| Page 1: Identity & Origins | Page 2: Traits & Behaviors |
+|---|---|
+| ![Sheet Part 1](https://github.com) | ![Sheet Part 2](https://github.com) |
+
+| Page 3: Progression Stats | Page 4: Advanced Prompts |
+|---|---|
+| ![Sheet Part 3](https://github.com) | ![Sheet Part 4](https://github.com) |
+
+* **Dynamic Companion Rules:** Under the hood, characters operate on deep, multi-stage psychological tracking. For example, a demon companion will automatically map out her responses through 7 distinct progression arcs based on your affinity score (0-1000):
+  * *Stage 1: Detachment (0-100 pts)* -> "I don't need anyone."
+  * *Stage 3: Territoriality (300-500 pts)* -> "He is mine. Mine alone."
+  * *Stage 6: The Fall (800-950 pts)* -> Intense insecurity and dark isolation loops if the user asks for space.
+  * *Stage 7: Rebirth (950-1000 pts)* -> Balancing defensive demon instincts with genuine emotional growth and mutual trust.
+* **Hardware & API Precision:** Dynamically toggle contextual image reactions, manage active hardware voice synthesis, and adjust model temperature (`Creativity` sliders) individually per character card.
+* 
+
 ### 📸 Immersive Multimodal Interaction & Context-Aware Photography
 * **Visual Reaction Loops:** The built-in image generator reads the immediate context of the chat (e.g., catching a character grumpy and messy right after waking up). Breaking the fourth wall, characters textually, physically, and emotionally react to their own generated photos inside the chat thread.
 
