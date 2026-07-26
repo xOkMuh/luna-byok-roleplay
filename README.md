@@ -24,8 +24,14 @@ Most apps hand you a blank text box. Luna gives you a forge. Define your charact
 ![RPG Adventure](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-25-14-26-28-994_com.muh.luna.jpg)
 
 
-### 📚 The Sagas Engine: Immortal Campaign Memory
-Say goodbye to AI amnesia. Luna compresses and structures your history into **Pages, Chapters, and Volumes**. This hierarchical RAG architecture allows deeply consistent long-term memory. Export your entire journey anytime as a formatted E-book (.html or .md) straight to your device.
+### 📚 The Sagas Engine: Immortal Campaign Memory & Memory Manager
+Say goodbye to AI amnesia. Luna compresses and structures your history into **Pages, Chapters, and Volumes** using a fully visible Hierarchical RAG architecture. 
+* **The Living Diary:** Open the side menu anytime to visually inspect your memory tree. You can track short-term entries (`Pages`) before they dynamically compress into long-term nodes (`Entries`). 
+* **Context Ingestion:** Every narrative event is tracked. A real-time message countdown (e.g., `Faltam 27 msgs`) shows you exactly when the background engine will compress and seal the current context, making your campaign memory immortal.
+
+![Personal Diary Menu](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-26-00-22-13-821_com.muh.luna.jpg)
+
+
 
 ### 🎮 In-Character Tabletop Games (UNO)
 Sit at a virtual table to play real card games against your characters. Luna's internal "AI Judge" ensures bots play tactically, bluff, draw cards, and face real in-game penalties if they attempt to cheat or take too long to move.
