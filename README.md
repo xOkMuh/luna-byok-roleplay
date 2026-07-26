@@ -17,7 +17,7 @@ Most apps hand you a blank text box. Luna gives you a forge. Define your charact
 * **0-1000 Intimacy Progression:** Map out real-time affinity evolution across 7 psychological stages based on themes like Romance, Rivalry, or Trust.
 
 ![The Soul Factory Top](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-26-01-14-06-729_com.muh.luna.jpg)
-![The Soul Factory Bottom]([https://github.com](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-26-01-14-15-488_com.muh.luna.jpg))
+![The Soul Factory Bottom](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-26-01-14-15-488_com.muh.luna.jpg)
 
 ### 📸 Immersive Multimodal Interaction & Context-Aware Photography
 * **Visual Reaction Loops:** The built-in image generator reads the immediate context of the chat (e.g., catching a character grumpy and messy right after waking up). Breaking the fourth wall, characters textually, physically, and emotionally react to their own generated photos inside the chat thread.
