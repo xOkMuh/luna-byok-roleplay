@@ -26,8 +26,9 @@ Most apps hand you a blank text box. Luna gives you a forge. Define your charact
 
 ### 📚 The Sagas Engine: Immortal Campaign Memory & Memory Manager
 Say goodbye to AI amnesia. Luna compresses and structures your history into **Pages, Chapters, and Volumes** using a fully visible Hierarchical RAG architecture. 
-* **The Living Diary:** Open the side menu anytime to visually inspect your memory tree. You can track short-term entries (`Pages`) before they dynamically compress into long-term nodes (`Entries`). 
-* **Context Ingestion:** Every narrative event is tracked. A real-time message countdown (e.g., `Faltam 27 msgs`) shows you exactly when the background engine will compress and seal the current context, making your campaign memory immortal.
+* **The Living Diary (Internal POV):** The AI autonomously reviews recent chat logs, interprets the emotional weight of the events, and writes a secret first-person journal using her own personality traits, voice, and unique verbal tics. 
+* **Identity Reinforcement Loops:** These entries are fed directly back into her long-term memory layer, meaning her core identity, biases, and emotional attachment grow exponentially stronger with every single page.
+* **Context Ingestion:** Every narrative event is tracked. A real-time message countdown shows you exactly when the background engine will compress and seal the current context, making your campaign memory immortal.
 
 ![Personal Diary Menu](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-26-00-22-13-821_com.muh.luna.jpg)
 
