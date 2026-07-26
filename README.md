@@ -31,7 +31,7 @@ Say goodbye to AI amnesia. Luna compresses and structures your history into **Pa
 
 ![Personal Diary Menu](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-26-00-22-13-821_com.muh.luna.jpg)
 
-
+![Character's Diary](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-26-00-30-49-261_com.muh.luna.jpg)
 
 ### 🎮 In-Character Tabletop Games (UNO)
 Sit at a virtual table to play real card games against your characters. Luna's internal "AI Judge" ensures bots play tactically, bluff, draw cards, and face real in-game penalties if they attempt to cheat or take too long to move.
