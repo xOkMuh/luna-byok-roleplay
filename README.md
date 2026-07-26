@@ -11,11 +11,20 @@ Luna is developed by a solo engineer and runs **100% offline** (via local GGUF) 
 ## 📱 Inside the Forge (The Core App Features)
 
 ### 🏭 Meet The Soul Factory: Advanced Character Generation
-Most apps hand you a blank text box. Luna gives you a forge. Define your character's DNA from scratch, or leave fields blank to let the engine breathe life into a 100% unique entity:
+Most apps hand you a blank text box. Luna gives you a forge. Define your character's DNA from scratch across core genes, or leave fields blank to let the engine breathe life into a 100% unique entity:
 * **The Soul Age Scale:** Define existence from "Mortal" (18-120 years) up to "Cosmic" (10,000+ years). The AI weaves their longevity into their worldviews and secrets.
 * **World & Reality Alignment:** Toggle if your character is "Native" to their current setting or a "Traveler / Isekai" with a separate origin universe.
 * **0-1000 Intimacy Progression:** Map out real-time affinity evolution across 7 psychological stages based on themes like Romance, Rivalry, or Trust.
-* **Context-Aware Photography + Reactions:** The built-in image generator reads the immediate context of the chat (e.g., catching a character grumpy right after waking up). Breaking the fourth wall, characters textually and emotionally react to their own generated photos.
+
+![The Soul Factory Top](https://github.com)
+![The Soul Factory Bottom](https://github.com)
+
+### 📸 Immersive Multimodal Interaction & Context-Aware Photography
+* **Visual Reaction Loops:** The built-in image generator reads the immediate context of the chat (e.g., catching a character grumpy and messy right after waking up). Breaking the fourth wall, characters textually, physically, and emotionally react to their own generated photos inside the chat thread.
+
+![Character Photo Generation](https://github.com)
+![Character Reaction to Photo](https://github.com)
+
 
 ### 🗺️ Endless Visual Novel Adventures (Textless Campaign Mode)
 * **The Narrator:** A Game Master takes control of your campaign. Instead of demanding tedious typing, it dynamically provides **3 tactical action options** at the end of every turn.
