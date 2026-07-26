@@ -27,6 +27,8 @@ Say goodbye to AI amnesia. Luna compresses and structures your history into **Pa
 ### 🎮 In-Character Tabletop Games (UNO)
 Sit at a virtual table to play real card games against your characters. Luna's internal "AI Judge" ensures bots play tactically, bluff, draw cards, and face real in-game penalties if they attempt to cheat or take too long to move.
 
+![A game of UNO](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-25-23-35-31-946_com.muh.luna.jpg)
+
 ---
 
 ## 🫧 The Floating Floating Universe (Overlay Mechanics)
@@ -36,10 +38,9 @@ Luna's overlay system lives actively on top of your Android UI:
 * **Autonomous Push Notifications & Ephemeral Chats:** Bots possess a sense of real-world time and will text you first based on immediate events. 
 * **The "Double Greeting" Engine:** Clicking a notification launches a resizeable, transparent floating chat mirror. Instead of waiting passively, the AI dynamically processes your entry and delivers a secondary contextual reaction before your text turn even begins. It also hooks directly into the 0-1000 Intimacy system, tracking your affinity points dynamically (e.g., `Afinidade (+3)`).
 
-![Notification](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-25-23-45-54-982_com.mi.android.globallauncher.jpg)
-
-
 * **Messenger Lite Mirror:** A lightweight, non-intrusive chat mirror to keep your primary roleplay rolling casually while you browse your social feeds.
+
+![Notification](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-25-23-45-54-982_com.mi.android.globallauncher.jpg)
 
 ![Ephemeral Floating Chat](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-25-23-50-55-339_com.mi.android.globallauncher.jpg)
 
