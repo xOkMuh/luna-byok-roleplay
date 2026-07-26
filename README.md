@@ -24,11 +24,11 @@ Once a soul is forged, you gain access to an ultra-detailed, multi-page characte
 
 | Page 1: Identity & Origins | Page 2: Traits & Behaviors |
 |---|---|
-| ![Sheet Part 1](https://github.com) | ![Sheet Part 2](https://github.com) |
+| ![Sheet Part 1](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-26-01-19-46-720_com.muh.luna.jpg) | ![Sheet Part 2](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-26-01-20-00-965_com.muh.luna.jpg) |
 
 | Page 3: Progression Stats | Page 4: Advanced Prompts |
 |---|---|
-| ![Sheet Part 3](https://github.com) | ![Sheet Part 4](https://github.com) |
+| ![Sheet Part 3](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-26-01-20-18-270_com.muh.luna.jpg) | ![Sheet Part 4](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-26-01-20-40-291_com.muh.luna.jpg) |
 
 * **Dynamic Companion Rules:** Under the hood, characters operate on deep, multi-stage psychological tracking. For example, a demon companion will automatically map out her responses through 7 distinct progression arcs based on your affinity score (0-1000):
   * *Stage 1: Detachment (0-100 pts)* -> "I don't need anyone."
