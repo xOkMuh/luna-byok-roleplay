@@ -33,8 +33,16 @@ Sit at a virtual table to play real card games against your characters. Luna's i
 
 Luna's overlay system lives actively on top of your Android UI:
 * **Chaos Mode & Screen Vision:** Drop multiple character bubbles onto your screen simultaneously. With Screen Vision active, they can read your current mobile display context and comment autonomously on what you are doing.
-* **Autonomous Push Notifications & Ephemeral Chats:** Bots possess a sense of real-world time and will text you first. Clicking their notification launches an "Ephemeral Chat"—a quick, disposable interaction thread that doesn't pollute or alter your primary campaign save history.
+* **Autonomous Push Notifications & Ephemeral Chats:** Bots possess a sense of real-world time and will text you first based on immediate events. 
+* **The "Double Greeting" Engine:** Clicking a notification launches a resizeable, transparent floating chat mirror. Instead of waiting passively, the AI dynamically processes your entry and delivers a secondary contextual reaction before your text turn even begins. It also hooks directly into the 0-1000 Intimacy system, tracking your affinity points dynamically (e.g., `Afinidade (+3)`).
+
+![Notification](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-25-23-45-54-982_com.mi.android.globallauncher.jpg)
+
+
 * **Messenger Lite Mirror:** A lightweight, non-intrusive chat mirror to keep your primary roleplay rolling casually while you browse your social feeds.
+
+![Ephemeral Floating Chat](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-25-23-50-55-339_com.mi.android.globallauncher.jpg)
+
 
 ---
 
@@ -43,7 +51,8 @@ Luna's overlay system lives actively on top of your Android UI:
 * **7 Mythic Interface Domains:** Completely overhaul the UI theme to match your genre (Cyberpunk, High Fantasy, Grimdark, etc.). These domains dynamically recolor fonts to flawlessly separate dialogue tokens (`" "`) from narrative actions (`* *`).
 * **Multi-Perception Identity:** Your overarching profile holds your hidden secrets, but you can build a customized Bio per character. You can be perceived as an absolute King to one bot and a sworn Enemy to another within the same ecosystem.
 * **Granular Hardware Command:** Take total control of your device's architecture. Dictate exact CPU thread allocation, RAM context limits, and text generation speeds (Typewriter effect vs. full-block outputs).
-![Nome da Imagem](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-25-23-28-47-325_com.muh.luna.jpg)
+
+![Settings menu](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-25-23-28-47-325_com.muh.luna.jpg)
 
 ---
 
