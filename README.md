@@ -38,8 +38,18 @@ Once a soul is forged, you gain access to an ultra-detailed, multi-page characte
 * **Hardware & API Precision:** Dynamically toggle contextual image reactions, manage active hardware voice synthesis, and adjust model temperature (`Creativity` sliders) individually per character card.
 * 
 
-### 📸 Immersive Multimodal Interaction & Context-Aware Photography
-* **Visual Reaction Loops:** The built-in image generator reads the immediate context of the chat (e.g., catching a character grumpy and messy right after waking up). Breaking the fourth wall, characters textually, physically, and emotionally react to their own generated photos inside the chat thread.
+### 📸 Immersive Multimodal Interaction ### 📸 Immersive Multimodal Interaction & Seed-Locked Emotion Engines
+Luna features a professional, native AI generation pipeline completely integrated across all application contexts.
+
+* **Granular Visual DNA Control:** Power-users gain absolute control over the character's rendering pipeline. Deeply customize generation assets by choosing checkpoint models (e.g., Nova-Anime-XL, AniCoreXL), selecting aspect ratios (1:1, 9:16, 16:9), and injecting multiple LoRA and Embedding IDs separated by commas directly into the active character card interface.
+* **Global Identity Persistence:** Once saved, this visual DNA and core seed are respected globally throughout the entire application. Whether you are generating imagery inside the Textless RPG Adventure, playing a game of UNO, chatting in a multi-character Group Room, or interacting with Floating Overlays, the character's core facial identity remains 100% stable—autonomously varying only the background scenery, pose, and active emotional state.
+* **Seed-Locked Expression Slots:** Say goodbye to broken character consistency. Once your primary profile avatar is rendered, the engine freezes the generation seed. This unlocks a grid of 16 default emotion slots (Laughing, Sad, Grumpy, Blushing, etc.) and 8 custom expansion slots. You generate them one by one, ensuring total facial stability.
+* **Dynamic Mood Splitting:** During live text conversations, the engine tracks the character's internal psychological state and autonomously swaps their active profile avatar in real-time to match their current emotional reaction.
+* **Visual Reaction Loops:** The image generator reads the deep context of the chat thread. Breaking the fourth wall, characters textually, physically, and emotionally react to their own newly generated photos inside the chat box.
+
+![The DNA Forge Menu](https://github.com)
+
+![Expression Matrix Grid](https://github.com)
 
 ![Character Photo Generation](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-26-01-04-39-360_com.muh.luna.jpg)
 ![Character Reaction to Photo](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-26-01-04-46-062_com.muh.luna.jpg)
