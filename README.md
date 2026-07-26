@@ -21,6 +21,9 @@ Most apps hand you a blank text box. Luna gives you a forge. Define your charact
 * **The Narrator:** A Game Master takes control of your campaign. Instead of demanding tedious typing, it dynamically provides **3 tactical action options** at the end of every turn.
 * **The Watcher & Cartographer:** An invisible backend system automatically manages your Inventory, Quest Logs, and active NPCs. As you progress, the Cartographer automatically renders location imagery and draws world maps in real time.
 
+![RPG Adventure](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-25-14-26-28-994_com.muh.luna.jpg)
+
+
 ### 📚 The Sagas Engine: Immortal Campaign Memory
 Say goodbye to AI amnesia. Luna compresses and structures your history into **Pages, Chapters, and Volumes**. This hierarchical RAG architecture allows deeply consistent long-term memory. Export your entire journey anytime as a formatted E-book (.html or .md) straight to your device.
 
