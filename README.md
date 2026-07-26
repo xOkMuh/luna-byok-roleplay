@@ -36,13 +36,12 @@ Once a soul is forged, you gain access to an ultra-detailed, multi-page characte
   * *Stage 6: The Fall (800-950 pts)* -> Intense insecurity and dark isolation loops if the user asks for space.
   * *Stage 7: Rebirth (950-1000 pts)* -> Balancing defensive demon instincts with genuine emotional growth and mutual trust.
 * **Hardware & API Precision:** Dynamically toggle contextual image reactions, manage active hardware voice synthesis, and adjust model temperature (`Creativity` sliders) individually per character card.
-* 
 
-### 📸 Immersive Multimodal Interaction ### 📸 Immersive Multimodal Interaction & Seed-Locked Emotion Engines
+### 📸 Immersive Multimodal Interaction & Seed-Locked Emotion Engines
 Luna features a professional, native AI generation pipeline completely integrated across all application contexts.
 
 * **Granular Hardware & Global API Provisioning:** Take total, absolute control of your device's architecture and backend streaming. Dictate exact CPU thread allocation, RAM context limits, and text generation speeds (Typewriter effect vs. full-block outputs).
-* **Modular Image Provider Slots (BYOK Pipeline):** Configure global image generation engines using an agnostic slot manager. Easily plug in customized Base URLs (e.g., TensorArt, Novita, or local stable diffusion endpoints), bind fixed positive prompts, define heavy negative prompt payloads, and choose API response parsing methods (`Padrão`, `Async`, `URL GET`, `Google`). Once configured globally, these models instantly populate as selectable assets inside each character card's visual DNA panel.
+* **Modular Image Provider Slots (BYOK Pipeline):** Configure global image generation engines using an agnostic slot manager. Easily plug in customized Base URLs (e.g., TensorArt, Novita, or local stable diffusion endpoints), bind fixed positive prompts, define heavy negative prompt payloads, and choose API response parsing methods (`Default`, `Async`, `URL GET`, `Google`). Once configured globally, these models instantly populate as selectable assets inside each character card's visual DNA panel.
 
 ![Global Image Settings Panel](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-26-01-49-13-671_com.muh.luna-edit.jpg)
 
@@ -83,12 +82,12 @@ Sit at a virtual table to play real card games against your characters. Luna's i
 
 ---
 
-## 🫧 The Floating Floating Universe (Overlay Mechanics)
+## 🫧 The Floating Universe (Overlay Mechanics)
 
 Luna's overlay system lives actively on top of your Android UI:
 * **Chaos Mode & Screen Vision:** Drop multiple character bubbles onto your screen simultaneously. With Screen Vision active, they can read your current mobile display context and comment autonomously on what you are doing.
 * **Autonomous Push Notifications & Ephemeral Chats:** Bots possess a sense of real-world time and will text you first based on immediate events. 
-* **The "Double Greeting" Engine:** Clicking a notification launches a resizeable, transparent floating chat mirror. Instead of waiting passively, the AI dynamically processes your entry and delivers a secondary contextual reaction before your text turn even begins. It also hooks directly into the 0-1000 Intimacy system, tracking your affinity points dynamically (e.g., `Afinidade (+3)`).
+* **The "Double Greeting" Engine:** Clicking a notification launches a resizeable, transparent floating chat mirror. Instead of waiting passively, the AI dynamically processes your entry and delivers a secondary contextual reaction before your text turn even begins. It also hooks directly into the 0-1000 Intimacy system, tracking your affinity points dynamically (e.g., `Affinity (+3)`).
 
 * **Messenger Lite Mirror:** A lightweight, non-intrusive chat mirror to keep your primary roleplay rolling casually while you browse your social feeds.
 
