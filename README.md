@@ -43,6 +43,7 @@ Luna's overlay system lives actively on top of your Android UI:
 * **7 Mythic Interface Domains:** Completely overhaul the UI theme to match your genre (Cyberpunk, High Fantasy, Grimdark, etc.). These domains dynamically recolor fonts to flawlessly separate dialogue tokens (`" "`) from narrative actions (`* *`).
 * **Multi-Perception Identity:** Your overarching profile holds your hidden secrets, but you can build a customized Bio per character. You can be perceived as an absolute King to one bot and a sworn Enemy to another within the same ecosystem.
 * **Granular Hardware Command:** Take total control of your device's architecture. Dictate exact CPU thread allocation, RAM context limits, and text generation speeds (Typewriter effect vs. full-block outputs).
+![Nome da Imagem](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-25-23-28-47-325_com.muh.luna.jpg)
 
 ---
 
