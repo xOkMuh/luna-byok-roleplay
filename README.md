@@ -79,9 +79,12 @@ Luna features a professional, native AI generation pipeline completely integrate
 ![RPG Adventure](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-25-14-26-28-994_com.muh.luna.jpg)
 
 ### 📚 The Sagas Engine: Immortal Campaign Memory & Cross-Chat Lore
-Say goodbye to AI amnesia. Luna compresses and structures your history into **Pages, Chapters, Volumes, and Aeternums (Absolute Records)** using a fully visible, hierarchical RAG architecture.
+Say goodbye to AI amnesia. Luna compresses and structures your history into a 5-tier hierarchy: **Pages, Entries, Chapters, Volumes, and Aeternums (Absolute Records)** using a fully visible, hierarchical RAG architecture.
 
 * **The Living Diary (Internal POV):** The AI autonomously reviews recent chat logs, interprets the emotional weight of the events, and writes a secret first-person journal using her own personality traits, voice, and unique verbal tics.
+* **Advanced Forging Controls:** You are the ultimate editor. Dictate exactly how the AI writes your history by selecting the tone (Quick Draft, Reflection, Maximum Inspiration) or using the Advanced Mode to strictly lock the generation by exact word counts or paragraph sizes.
+* **Immersive Reading & Audiobook Mode:** Read your journey through a built-in "Kindle-style" interface featuring custom wallpapers and page bookmarking. You can even generate high-quality TTS audio for each page, turning your roleplay into a fully narrated audiobook.
+* **E-book & Manuscript Export:** Export your entire adventure directly to your device as a beautifully formatted HTML E-book (ready for reading on any screen) or a raw Markdown (.md) manuscript (perfect for Obsidian, Notion, or rewriting on your PC).
 * **Identity Reinforcement Loops:** These entries are fed directly back into her long-term memory layer, meaning her core identity, biases, and emotional attachment grow exponentially stronger with every single page.
 * **Cross-Chat Gossip (The Whisper Network):** Characters are aware of the world outside their 1x1 chats. If an important event happens in a Group Room, characters carry that "memory ticket" with them. They might organically mention or react to something that happened in a completely different session if the context fits.
 * **Context Ingestion:** Every narrative event is tracked. A real-time message countdown shows you exactly when the background engine will compress and seal the current context, making your campaign memory immortal.
