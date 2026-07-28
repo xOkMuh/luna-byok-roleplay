@@ -168,11 +168,16 @@ Luna’s overlay system lives actively on top of your Android UI. Your character
 
 ---
 
-## ⚙️ Immersive Styling & Advanced Identity Mapping
-
+## ⚙️ Next-Gen Theming & UI Physics
 * **7 Mythic Interface Domains:** Completely overhaul the UI theme to match your genre (Cyberpunk, High Fantasy, Grimdark, etc.). These domains dynamically recolor fonts to flawlessly separate dialogue tokens (`" "`) from narrative actions (`* *`).
+* **True Glassmorphism & UI Control:** Upload your own Global Wallpapers. The entire UI—from chat bubbles (Classic, Pill, Compact) to side drawers—features translucent glassmorphism that dynamically blends with your background.
+* **Spring-Physics Transitions:** Navigate the app with premium, buttery-smooth page animations (Depth, Zoom, Slide) powered by real spring physics. Switching between Light (Luna Gold) and Dark (Luna Blue) mode even updates the app's native icon.
 * **Multi-Perception Identity:** Your overarching profile holds your hidden secrets, but you can build a customized Bio per character. You can be perceived as an absolute King to one bot and a sworn Enemy to another within the same ecosystem.
-* **Granular Hardware Command:** Take total control of your device's architecture. Dictate exact CPU thread allocation, RAM context limits, and text generation speeds (Typewriter effect vs. full-block outputs).
+
+## 🔒 Power-User Hardware & Privacy (BYOK)
+* **The Offline Vault (Zero Cloud Tracking):** Luna respects your privacy. Use the built-in Backup & Restore system to export all your characters, sagas, and chat logs to a secure, visible folder (`Luna_Backup_Seguro`) on your device's storage. Move your data freely between devices without ever syncing to a corporate server.
+* **Granular CPU, RAM & Generation Mastery:** Take total control of your device's architecture. Dictate exact CPU thread allocation, tweak the LLM's Batch Size (crunching speed), push local GGUF context limits up to 16,384 tokens based on your hardware, and adjust text generation speeds (Typewriter effect vs. full-block outputs).
+* **The "Memory Pill" (Manual Context Wiping):** Playing on a low-end device? Track your exact RAM usage via a live percentage pill at the top of the screen. Click it to manually flush the LLM's KV Cache—the engine intelligently preserves the character sheet and the most recent context so you never lose the flow of the conversation.
 
 ![Settings menu](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-25-23-28-47-325_com.muh.luna.jpg)
 
