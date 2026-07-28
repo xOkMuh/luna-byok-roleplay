@@ -16,7 +16,6 @@ Most apps hand you a blank text box. Luna gives you a forge. Define your charact
 * **The Soul Age Scale:** Define existence from "Mortal" (18-120 years) up to "Cosmic" (10,000+ years). The engine dynamically adjusts their worldview—a cosmic entity will treat decades like days.
 * **World & Reality Alignment:** Toggle if your character is "Native" to their current setting or a "Traveler / Isekai" with a separate origin universe.
 * **Custom User Persona (Targeted Identity):** You don't just build the AI; you build *yourself*. Define your own Age, Gender, and Lore specifically for how that individual character perceives you.
-* 
 
 ![The Soul Factory Top](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-26-01-14-06-729_com.muh.luna.jpg)
 ![The Soul Factory Bottom](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-26-01-14-15-488_com.muh.luna.jpg)
@@ -27,7 +26,6 @@ Once a soul is forged, you gain access to an ultra-detailed, multi-page characte
 * **Dynamic Companion Rules:** Characters operate on deep, multi-stage psychological tracking. A companion will automatically map out her responses through 7 distinct progression arcs based on your affinity score (0-1000 points).
 * **Locked Emotional Nicknames:** Nicknames hold weight. You can assign specific emotional triggers (e.g., Hostility, Loyalty, Passion) to how a character reacts when you call them by a pet name. However, high-tier emotions like "Reverence" or "Passion" are strictly locked behind Affinity Stages and must be earned in roleplay.
 * **Granular Voice Tuning:** Assign distinct TTS (Text-to-Speech) languages, voice models, pitch ranges, and speech speeds to every individual card.
-* 
 
 | Page 1: Identity & Origins | Page 2: Traits & Behaviors |
 |---|---|
@@ -84,8 +82,12 @@ Say goodbye to AI amnesia. Luna compresses and structures your history into **Pa
 
 ![Character's Diary](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-26-00-30-49-261_com.muh.luna.jpg)
 
-### 🎮 In-Character Tabletop Games (UNO)
-Sit at a virtual table to play real card games against your characters. Luna's internal "AI Judge" ensures bots play tactically, bluff, draw cards, and face real in-game penalties if they attempt to cheat or take too long to move.
+### 🃏 In-Character Tabletop Games (UNO)
+Sit at a virtual table to play real card games against your characters. Luna isn't just generating text; the engine forces the AI to look at their actual digital hand, strategize, and play by the rules.
+
+* **The Uncompromising AI Judge:** The bots can and will try to win. If an AI attempts to cheat, bluff a card they don't have, or takes too long to play, the hidden Game Master penalizes them with +2 cards in real-time—and they will dynamically react to the punishment in the chat.
+* **Multi-Model Chaos:** In Cloud Mode (Route B), you can invite multiple characters to the same table. The engine isolates their brains, allowing you to assign a completely different AI model to each opponent. They will banter, gang up on each other with +4 cards, and react to the table's shifting colors.
+* **Short-Text Dynamics:** Toggle the "Short Message" mode to stop AIs from monologuing, forcing them to deliver quick, snappy trash-talk as the game flows.
 
 ![A game of UNO](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-25-23-35-31-946_com.muh.luna.jpg)
 
@@ -140,7 +142,6 @@ Luna’s overlay system lives actively on top of your Android UI. Your character
 * **Autonomous Push Notifications & Ephemeral Chats:** Bots possess a sense of real-world time and will text you first based on immediate events. Clicking a notification launches a resizeable, transparent floating chat mirror. 
 * **The "Double Greeting" Engine:** When reacting to your screen, the AI dynamically processes your environment and delivers a contextual reaction *before* your text turn even begins. This hooks directly into the 0-1000 Intimacy system, tracking your affinity points dynamically in the background.
 * **Floating Group Chaos:** You can drag an entire party (Group Room) into the floating overlay. The engine handles the background prompt routing to ensure all characters recognize they are sharing the same screen space with you.
-* 
 
 ![Notification](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-25-23-45-54-982_com.mi.android.globallauncher.jpg)
 
