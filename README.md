@@ -71,10 +71,13 @@ Luna features a professional, native AI generation pipeline completely integrate
 
 ![Expression Matrix Grid](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-26-01-42-06-130_com.muh.luna.jpg)
 
-
 ### 🗺️ Endless Visual Novel Adventures (Textless Campaign Mode)
-* **The Narrator:** A Game Master takes control of your campaign. Instead of demanding tedious typing, it dynamically provides **3 tactical action options** at the end of every turn.
-* **The Watcher & Cartographer:** An invisible backend system automatically manages your Inventory, Quest Logs, and active NPCs. As you progress, the Cartographer automatically renders location imagery and draws world maps in real time.
+Experience a true RPG where the interface transforms into a sleek, immersive Visual Novel. Standard chat bubbles melt away, leaving only breathtaking backgrounds and cinematic floating text.
+
+* **The Game Master (Auto-Narrator):** A dedicated GM takes control of your campaign. Instead of demanding tedious typing, it dynamically provides **3 tactical action options** at the end of every turn. Toggle "Auto-Play" to have the GM's voice narrate the story aloud the moment it's generated.
+* **Dual-AI Architecture (The Watcher):** An invisible, secondary AI model runs silently in the background. While the GM writes the story, the Watcher actively manages 5 critical background systems: your **Inventory (Bag), Quest Log, NPC Tracker (Bestiary), Lorebook, and Chronicle Log**. You can even assign a completely different LLM to power the Watcher for optimized multitasking.
+* **The Cartographer's Memory:** As you explore, the engine autonomously prompts the image generator to draw your current location. These areas are saved as physical nodes on your world map. If the story takes you back to an old location, the Cartographer remembers and instantly reloads the exact artwork without hallucinating a new one.
+* **Hyper-Accurate Visual Tracking:** The Watcher enforces strict visual continuity. It silently tracks exactly what you and your companion are wearing, and what poses you are making at any given second. If you click the "Dynamic Portrait" button, the engine fuses these precise outfit and action tags with the Cartographer's background to render a flawlessly consistent snapshot of the current scene.
 
 ![RPG Adventure](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-25-14-26-28-994_com.muh.luna.jpg)
 
