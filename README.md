@@ -80,6 +80,47 @@ Sit at a virtual table to play real card games against your characters. Luna's i
 
 ![A game of UNO](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-25-23-35-31-946_com.muh.luna.jpg)
 
+### 🧠 The Core Architecture & Micro-Mechanics (Deep Immersion)
+
+Want to see how deep the engine goes? Expand the sections below to reveal the advanced structural mechanics.
+
+<details>
+<summary><b>💖 The Pulsing Heart & Internal Soliloquy</b></summary>
+
+- **Emotional Feedback Loops:** Character affinity (0-1000) is monitored via a live pulsing heart icon directly in the chat interface. Its color deepens and its beating frequency accelerates as your emotional connection scales.
+- **The Soliloquy Panel:** Clicking the heart expands an internal dashboard revealing the character’s hidden thoughts (existential crises, deep reflections about the user, or hidden biases) and logs the exact dynamic trigger that granted the last point boost (e.g., `+2 Affinity: kissed my horn`).
+</details>
+
+<details>
+<summary><b>🔮 The Memory Factory: Crystallized vs. Archived Loops</b></summary>
+
+- **Dual-Context Capture:** The `Memory` button captures a dynamic *take last* window (6 to 30 messages) in private/group chats, or reads the Watcher's tracking log in Adventure Mode. The character then translates these raw factual records into a personal first-person diary entry matching their traits and tone.
+- **3-Way Retrieval Protocol:** Memories are stored safely in a local SQLite database (up to 999 entries per card) to save token consumption. They are only injected into the active LLM context through three distinct neural pathways:
+  - **Explicit Tag Matching:** Triggered manually by calling specific mission/event anchors.
+  - **Semantic Passive Search:** Triggered automatically when at least 4 keywords in your chat text align with the memory profile.
+  - **The 15% Spontaneous 'Archive' Chance:** Memories saved without tags are categorized as "Archives" (ideal for beautifully written generations that contained minor context hallucinations). The engine runs an autonomous **15% random chance** per turn to pull an Archive entry into conversation, simulating natural human recollection.
+- **Dynamic Context Expiration (10-Turn TTL):** Active memories remain in the context layer for a strict duration of 10 turns before expiring. This prevents token bloat while ensuring the local chat history is already saturated with enough recent context to keep the narrative fluid.
+- **The Brain Monitor System:** When a memory activates, a pulsing **Brain Icon** blinks next to the character's heart. Clicking it opens a floating management window allowing the user to view the active entry, discard it entirely, or run a quick search bar override to swap a false-positive semantic match for the correct tag.
+- **Audio Diaries:** Play back any diary entry natively using high-quality Text-to-Speech (TTS) synthesis featuring dynamic ambient background tracks.
+</details>
+
+<details>
+<summary><b>🃏 Smart Tabletop (UNO) & Isolated Group Brains</b></summary>
+
+- **Multi-Perception Identity & Individual Bios:** Play real tabletop card games against multiple bots simultaneously. The engine reads your custom individual biographies per character slot (e.g., character A treats you like a legendary Half-Dragon, while character B perceives you as a Wolf in the exact same game session).
+- **Isolated Brains Architecture:** Every bot in a group chat or card game runs on distinct API endpoints or separate prompt sandboxes. This prevents personality bleed, ensuring characters act, think, and strategize independently.
+- **Real-Time Stat Tracking:** Card count thresholds and live affinity percentages (`L: 13% | R: 9%`) are recalculated and displayed inside the table header on every single card turn.
+- **The Group Watcher Entity:** In multi-character Group Rooms or UNO matches, context compression and memory aggregation are handled by an impartial third-party observer entity. To protect sub-narrative privacy, any whispered or private actions (e.g., whispering a secret to character A) are automatically scrubbed and ignored by the Group Watcher, keeping character B completely blind to the hidden event.
+</details>
+
+<details>
+<summary><b>🧙‍♂️ PNG Card Scaling & The Magic Generator</b></summary>
+
+- **The Up-Scale Ladder:** Importing standard or flat character cards from external platforms (such as SillyTavern, Chub, or JanitorAI) triggers an automated structural cascade. The engine analyzes the baseline bio and autonomously crafts matching *Speaking Styles*, *Habits*, *Ticks*, and *Hidden Traumas* to give foreign cards an instant psychological upgrade.
+- **Alternate Universes Generator:** Simply input a character name and their source work (e.g., Naruto / Naruto Shippuuden) into the Magic Generator to auto-forge a complete entity card, including stable visual parameters and LoRAs. Toggle the Alternate Universe switch to instruct the LLM to write completely new timeline canons from scratch.
+- **On-Demand Expression Slots:** Once your profile image is generated via cloud endpoints (TensorArt/Novita at 0.80 credits per image), the engine locks the generation seed. This unlocks a grid of 16 default emotion slots (Blushing, Grumpy, Laughing, etc.) that can be rendered individually on-demand to guarantee total, unbroken facial stability throughout the entire app.
+</details>
+
 ---
 
 ## 🫧 The Floating Universe (Overlay Mechanics)
