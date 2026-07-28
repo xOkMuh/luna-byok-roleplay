@@ -11,16 +11,23 @@ Luna is developed by a solo engineer and runs **100% offline** (via local GGUF) 
 ## 📱 Inside the Forge (The Core App Features)
 
 ### 🏭 Meet The Soul Factory: Advanced Character Generation
-Most apps hand you a blank text box. Luna gives you a forge. Define your character's DNA from scratch across core genes, or leave fields blank to let the engine breathe life into a 100% unique entity:
-* **The Soul Age Scale:** Define existence from "Mortal" (18-120 years) up to "Cosmic" (10,000+ years). The AI weaves their longevity into their worldviews and secrets.
+Most apps hand you a blank text box. Luna gives you a forge. Define your character's DNA from scratch across core genes, or leave fields blank to let the engine breathe life into a 100% unique entity via AI generation (Lite or Max token processing).
+
+* **The Soul Age Scale:** Define existence from "Mortal" (18-120 years) up to "Cosmic" (10,000+ years). The engine dynamically adjusts their worldview—a cosmic entity will treat decades like days.
 * **World & Reality Alignment:** Toggle if your character is "Native" to their current setting or a "Traveler / Isekai" with a separate origin universe.
-* **0-1000 Intimacy Progression:** Map out real-time affinity evolution across 7 psychological stages based on themes like Romance, Rivalry, or Trust.
+* **Custom User Persona (Targeted Identity):** You don't just build the AI; you build *yourself*. Define your own Age, Gender, and Lore specifically for how that individual character perceives you.
+* 
 
 ![The Soul Factory Top](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-26-01-14-06-729_com.muh.luna.jpg)
 ![The Soul Factory Bottom](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-26-01-14-15-488_com.muh.luna.jpg)
 
 ### 🗂️ Character Sheet Customization & Psychological Evolution
-Once a soul is forged, you gain access to an ultra-detailed, multi-page character sheet. You can granularly tweak or read their identity markers, custom speech profiles, and hidden traumas at any point during the campaign.
+Once a soul is forged, you gain access to an ultra-detailed, multi-page character sheet. You can granularly tweak their identity markers, custom speech profiles, and hidden traumas at any point during the campaign.
+
+* **Dynamic Companion Rules:** Characters operate on deep, multi-stage psychological tracking. A companion will automatically map out her responses through 7 distinct progression arcs based on your affinity score (0-1000 points).
+* **Locked Emotional Nicknames:** Nicknames hold weight. You can assign specific emotional triggers (e.g., Hostility, Loyalty, Passion) to how a character reacts when you call them by a pet name. However, high-tier emotions like "Reverence" or "Passion" are strictly locked behind Affinity Stages and must be earned in roleplay.
+* **Granular Voice Tuning:** Assign distinct TTS (Text-to-Speech) languages, voice models, pitch ranges, and speech speeds to every individual card.
+* 
 
 | Page 1: Identity & Origins | Page 2: Traits & Behaviors |
 |---|---|
@@ -49,6 +56,8 @@ Luna features a professional, native AI generation pipeline completely integrate
 * **Seed-Locked Expression Slots:** Say goodbye to broken character consistency. Once your primary profile avatar is rendered, the engine freezes the generation seed. This unlocks a grid of 16 default emotion slots (Laughing, Sad, Grumpy, Blushing, etc.) and 8 custom expansion slots. You generate them one by one, ensuring total facial stability.
 * **Dynamic Mood Splitting:** During live text conversations, the engine tracks the character's internal psychological state and autonomously swaps their active profile avatar in real-time to match their current emotional reaction.
 * **Visual Reaction Loops:** The image generator reads the deep context of the chat thread. Breaking the fourth wall, characters textually, physically, and emotionally react to their own newly generated photos inside the chat box.
+* **Seed-Locked Expression Slots:** Say goodbye to broken character consistency. Once your primary profile avatar is rendered, the engine freezes the generation seed. This unlocks a grid of 16 default emotion slots (Laughing, Sad, Grumpy, Blushing, etc.) and 8 custom expansion slots.
+* **Chibi Companion Stickers:** Beyond facial expressions, the engine generates 8 unique super-deformed Chibi stickers (with or without background integration) to be used as dynamic reactions during specific Companion Mode events.
 
 ![The DNA Forge Menu](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-26-01-26-51-188_com.muh.luna.jpg)
 
@@ -123,19 +132,19 @@ Want to see how deep the engine goes? Expand the sections below to reveal the ad
 
 ---
 
-## 🫧 The Floating Universe (Overlay Mechanics)
+## 🫂 The Floating Universe (Overlay Mechanics)
+Luna’s overlay system lives actively on top of your Android UI. Your characters are no longer trapped inside a chat log; they are watching your world with you.
 
-Luna's overlay system lives actively on top of your Android UI:
-* **Chaos Mode & Screen Vision:** Drop multiple character bubbles onto your screen simultaneously. With Screen Vision active, they can read your current mobile display context and comment autonomously on what you are doing.
-* **Autonomous Push Notifications & Ephemeral Chats:** Bots possess a sense of real-world time and will text you first based on immediate events. 
-* **The "Double Greeting" Engine:** Clicking a notification launches a resizeable, transparent floating chat mirror. Instead of waiting passively, the AI dynamically processes your entry and delivers a secondary contextual reaction before your text turn even begins. It also hooks directly into the 0-1000 Intimacy system, tracking your affinity points dynamically (e.g., `Affinity (+3)`).
-
-* **Messenger Lite Mirror:** A lightweight, non-intrusive chat mirror to keep your primary roleplay rolling casually while you browse your social feeds.
+* **Screen Vision & App Tracking:** Drop a character bubble onto your screen while you browse social media or watch videos. With Screen Vision active, they can read your current mobile display context and comment autonomously on what you are doing (e.g., commenting on a specific video you are watching).
+* **The Time Skip Engine:** Characters have an internal sense of time. If you leave a character alone for several hours and then reopen their floating bubble, the engine injects a "Time Skip" context. The AI will organically act as if they lived their day normally while you were gone, greeting you differently based on the time elapsed.
+* **Autonomous Push Notifications & Ephemeral Chats:** Bots possess a sense of real-world time and will text you first based on immediate events. Clicking a notification launches a resizeable, transparent floating chat mirror. 
+* **The "Double Greeting" Engine:** When reacting to your screen, the AI dynamically processes your environment and delivers a contextual reaction *before* your text turn even begins. This hooks directly into the 0-1000 Intimacy system, tracking your affinity points dynamically in the background.
+* **Floating Group Chaos:** You can drag an entire party (Group Room) into the floating overlay. The engine handles the background prompt routing to ensure all characters recognize they are sharing the same screen space with you.
+* 
 
 ![Notification](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-25-23-45-54-982_com.mi.android.globallauncher.jpg)
 
 ![Ephemeral Floating Chat](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-25-23-50-55-339_com.mi.android.globallauncher.jpg)
-
 
 ---
 
