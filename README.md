@@ -42,11 +42,14 @@ Once a soul is forged, you gain access to an ultra-detailed, multi-page characte
   * *Stage 7: Rebirth (950-1000 pts)* -> Balancing defensive demon instincts with genuine emotional growth and mutual trust.
 * **Hardware & API Precision:** Dynamically toggle contextual image reactions, manage active hardware voice synthesis, and adjust model temperature (`Creativity` sliders) individually per character card.
 
-### 📸 Immersive Multimodal Interaction & Seed-Locked Emotion Engines
+### 📸 Immersive Multimodal Interaction (Art, Video & Voice)
 Luna features a professional, native AI generation pipeline completely integrated across all application contexts.
 
-* **Granular Hardware & Global API Provisioning:** Take total, absolute control of your device's architecture and backend streaming. Dictate exact CPU thread allocation, RAM context limits, and text generation speeds (Typewriter effect vs. full-block outputs).
-* **Modular Image Provider Slots (BYOK Pipeline):** Configure global image generation engines using an agnostic slot manager. Easily plug in customized Base URLs (e.g., TensorArt, Novita, or local stable diffusion endpoints), bind fixed positive prompts, define heavy negative prompt payloads, and choose API response parsing methods (`Default`, `Async`, `URL GET`, `Google`). Once configured globally, these models instantly populate as selectable assets inside each character card's visual DNA panel.
+* **Autonomous Art Director:** You can request a "photo" of the current moment directly in the chat. The AI will read the ongoing scene, analyze the environment and its own current pose/clothing, and silently translate it into prompt tags to generate a highly accurate, lore-friendly image of that exact moment.
+* **Bring-to-Life Video Animation:** Turn generated moments into living scenes. Luna supports direct video generation endpoints with customizable duration and camera tracking controls right from the chat bubble.
+* **Full Native Voice Engine (STT & TTS):** Luna doesn't just read; she listens and speaks. Talk to the characters using your microphone (Speech-to-Text). The AI replies with native Audio Generation in the chat. You can assign individual voice models, adjust pitch (deep/high), and tweak speech speed for *every* character independently.
+* **Visual Reaction Loops:** Breaking the fourth wall, characters textually, physically, and emotionally react to their own newly generated photos inside the chat box.
+* **Granular Hardware & Modular Provider Slots:** Configure global image and audio generation engines using an agnostic slot manager. Plug in customized Base URLs (e.g., TensorArt or Novita).
 
 ![Global Image Settings Panel](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-26-01-49-13-671_com.muh.luna-edit.jpg)
 
@@ -71,11 +74,12 @@ Luna features a professional, native AI generation pipeline completely integrate
 
 ![RPG Adventure](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-25-14-26-28-994_com.muh.luna.jpg)
 
+### 📚 The Sagas Engine: Immortal Campaign Memory & Cross-Chat Lore
+Say goodbye to AI amnesia. Luna compresses and structures your history into **Pages, Chapters, Volumes, and Aeternums (Absolute Records)** using a fully visible, hierarchical RAG architecture.
 
-### 📚 The Sagas Engine: Immortal Campaign Memory & Memory Manager
-Say goodbye to AI amnesia. Luna compresses and structures your history into **Pages, Chapters, and Volumes** using a fully visible Hierarchical RAG architecture. 
-* **The Living Diary (Internal POV):** The AI autonomously reviews recent chat logs, interprets the emotional weight of the events, and writes a secret first-person journal using her own personality traits, voice, and unique verbal tics. 
+* **The Living Diary (Internal POV):** The AI autonomously reviews recent chat logs, interprets the emotional weight of the events, and writes a secret first-person journal using her own personality traits, voice, and unique verbal tics.
 * **Identity Reinforcement Loops:** These entries are fed directly back into her long-term memory layer, meaning her core identity, biases, and emotional attachment grow exponentially stronger with every single page.
+* **Cross-Chat Gossip (The Whisper Network):** Characters are aware of the world outside their 1x1 chats. If an important event happens in a Group Room, characters carry that "memory ticket" with them. They might organically mention or react to something that happened in a completely different session if the context fits.
 * **Context Ingestion:** Every narrative event is tracked. A real-time message countdown shows you exactly when the background engine will compress and seal the current context, making your campaign memory immortal.
 
 ![Personal Diary Menu](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-26-00-22-13-821_com.muh.luna.jpg)
@@ -97,39 +101,47 @@ Want to see how deep the engine goes? Expand the sections below to reveal the ad
 
 <details>
 <summary><b>💖 The Pulsing Heart & Internal Soliloquy</b></summary>
-
-- **Emotional Feedback Loops:** Character affinity (0-1000) is monitored via a live pulsing heart icon directly in the chat interface. Its color deepens and its beating frequency accelerates as your emotional connection scales.
-- **The Soliloquy Panel:** Clicking the heart expands an internal dashboard revealing the character’s hidden thoughts (existential crises, deep reflections about the user, or hidden biases) and logs the exact dynamic trigger that granted the last point boost (e.g., `+2 Affinity: kissed my horn`).
+<ul dir="auto">
+<li><strong>Emotional Feedback Loops:</strong> Character affinity (0-1000) is monitored via a live pulsing heart icon directly in the chat interface. Its color deepens and its beating frequency accelerates as your emotional connection scales.</li>
+<li><strong>The Soliloquy Panel:</strong> Clicking the heart expands an internal dashboard revealing the character’s hidden thoughts (existential crises, deep reflections about the user, or hidden biases) and logs the exact dynamic trigger that granted the last point boost.</li>
+</ul>
 </details>
 
 <details>
 <summary><b>🔮 The Memory Factory: Crystallized vs. Archived Loops</b></summary>
-
-- **Dual-Context Capture:** The `Memory` button captures a dynamic *take last* window (6 to 30 messages) in private/group chats, or reads the Watcher's tracking log in Adventure Mode. The character then translates these raw factual records into a personal first-person diary entry matching their traits and tone.
-- **3-Way Retrieval Protocol:** Memories are stored safely in a local SQLite database (up to 999 entries per card) to save token consumption. They are only injected into the active LLM context through three distinct neural pathways:
-  - **Explicit Tag Matching:** Triggered manually by calling specific mission/event anchors.
-  - **Semantic Passive Search:** Triggered automatically when at least 4 keywords in your chat text align with the memory profile.
-  - **The 15% Spontaneous 'Archive' Chance:** Memories saved without tags are categorized as "Archives" (ideal for beautifully written generations that contained minor context hallucinations). The engine runs an autonomous **15% random chance** per turn to pull an Archive entry into conversation, simulating natural human recollection.
-- **Dynamic Context Expiration (10-Turn TTL):** Active memories remain in the context layer for a strict duration of 10 turns before expiring. This prevents token bloat while ensuring the local chat history is already saturated with enough recent context to keep the narrative fluid.
-- **The Brain Monitor System:** When a memory activates, a pulsing **Brain Icon** blinks next to the character's heart. Clicking it opens a floating management window allowing the user to view the active entry, discard it entirely, or run a quick search bar override to swap a false-positive semantic match for the correct tag.
-- **Audio Diaries:** Play back any diary entry natively using high-quality Text-to-Speech (TTS) synthesis featuring dynamic ambient background tracks.
+<ul dir="auto">
+<li><strong>Dual-Context Capture:</strong> The engine captures a dynamic "take last" window in private/group chats. The character then translates these raw factual records into a personal first-person diary entry matching their traits and tone.</li>
+<li><strong>3-Way Retrieval Protocol:</strong> Memories are injected into the active LLM context through three distinct neural pathways: Explicit Tag Matching, Semantic Passive Search, and the Spontaneous 'Archive' Chance (a 15% random chance to pull an Archive entry into conversation, simulating natural human recollection).</li>
+<li><strong>Dynamic Context Expiration (10-Turn TTL):</strong> Active memories remain in the context layer for a strict duration of 10 turns before expiring, preventing token bloat.</li>
+<li><strong>The Brain Monitor System:</strong> When a memory activates, a pulsing Brain Icon blinks. Clicking it allows the user to view the active entry, discard it entirely, or run a quick override to swap a false-positive semantic match.</li>
+<li><strong>Audio Diaries:</strong> Play back any diary entry natively using high-quality Text-to-Speech (TTS) synthesis featuring dynamic ambient background tracks.</li>
+</ul>
 </details>
 
 <details>
-<summary><b>🃏 Smart Tabletop (UNO) & Isolated Group Brains</b></summary>
-
-- **Multi-Perception Identity & Individual Bios:** Play real tabletop card games against multiple bots simultaneously. The engine reads your custom individual biographies per character slot (e.g., character A treats you like a legendary Half-Dragon, while character B perceives you as a Wolf in the exact same game session).
-- **Isolated Brains Architecture:** Every bot in a group chat or card game runs on distinct API endpoints or separate prompt sandboxes. This prevents personality bleed, ensuring characters act, think, and strategize independently.
-- **Real-Time Stat Tracking:** Card count thresholds and live affinity percentages (`L: 13% | R: 9%`) are recalculated and displayed inside the table header on every single card turn.
-- **The Group Watcher Entity:** In multi-character Group Rooms or UNO matches, context compression and memory aggregation are handled by an impartial third-party observer entity. To protect sub-narrative privacy, any whispered or private actions (e.g., whispering a secret to character A) are automatically scrubbed and ignored by the Group Watcher, keeping character B completely blind to the hidden event.
+<summary><b>🎲 Native RPG Tools & Interactive Widgets</b></summary>
+<ul dir="auto">
+<li><strong>In-Chat Physics:</strong> The engine supports native UI widgets for tabletop elements. You can trigger a Dice Roll or a Coin Toss directly in the chat.</li>
+<li><strong>System Injection:</strong> A 3D dice or coin animation plays on your screen, the result is randomized, and the System automatically injects the outcome into the narrative so the AI can organically react to your luck.</li>
+</ul>
 </details>
 
 <details>
-<summary><b>🧙‍♂️ PNG Card Scaling & The Magic Generator</b></summary>
+<summary><b>🎭 Advanced Group Dynamics & Isolated Brains</b></summary>
+<ul dir="auto">
+<li><strong>The 3 Persona Keys:</strong> In Group Rooms, you have absolute control over how the party perceives you. Choose "Unified Bio" (the entire group sees you as the Guild Master), "Individual Bio" (Character A sees you as a Mentor, while Character B sees you as a Rival based on their individual sheets), or "Deactivated" for a pure chaotic sandbox.</li>
+<li><strong>Isolated Brains Architecture:</strong> Every bot in a group chat or card game runs on strictly isolated brains. You can assign a completely different AI model API to each opponent, preventing personality bleed and ensuring they act, think, and strategize independently.</li>
+<li><strong>The Group Watcher Entity:</strong> Context compression and memory aggregation are handled by an impartial observer. Private actions whispered to one character remain completely hidden from others in the same room.</li>
+</ul>
+</details>
 
-- **The Up-Scale Ladder:** Importing standard or flat character cards from external platforms (such as SillyTavern, Chub, or JanitorAI) triggers an automated structural cascade. The engine analyzes the baseline bio and autonomously crafts matching *Speaking Styles*, *Habits*, *Ticks*, and *Hidden Traumas* to give foreign cards an instant psychological upgrade.
-- **Alternate Universes Generator:** Simply input a character name and their source work (e.g., Naruto / Naruto Shippuuden) into the Magic Generator to auto-forge a complete entity card, including stable visual parameters and LoRAs. Toggle the Alternate Universe switch to instruct the LLM to write completely new timeline canons from scratch.
-- **On-Demand Expression Slots:** Once your profile image is generated via cloud endpoints (TensorArt/Novita at 0.80 credits per image), the engine locks the generation seed. This unlocks a grid of 16 default emotion slots (Blushing, Grumpy, Laughing, etc.) that can be rendered individually on-demand to guarantee total, unbroken facial stability throughout the entire app.
+<details>
+<summary><b>🧙‍♀️ PNG Card Scaling & The Magic Generator</b></summary>
+<ul dir="auto">
+<li><strong>The Up-Scale Ladder:</strong> Importing standard or flat character cards from external platforms (such as SillyTavern, Chub, or JanitorAI) triggers an automated structural cascade. The engine analyzes the baseline bio and autonomously crafts matching <em>Speaking Styles</em>, <em>Habits</em>, <em>Ticks</em>, and <em>Hidden Traumas</em> to give foreign cards an instant psychological upgrade.</li>
+<li><strong>Alternate Universes Generator:</strong> Simply input a character name and their source work (e.g., Naruto / Naruto Shippuuden) into the Magic Generator to auto-forge a complete entity card, including stable visual parameters and LoRAs. Toggle the Alternate Universe switch to instruct the LLM to write completely new timeline canons from scratch.</li>
+<li><strong>On-Demand Expression Slots:</strong> Once your profile image is generated via cloud endpoints, the engine locks the generation seed. This unlocks a grid of 16 default emotion slots and 8 custom expansion slots that can be rendered individually on-demand to guarantee total, unbroken facial stability throughout the entire app.</li>
+</ul>
 </details>
 
 ---
