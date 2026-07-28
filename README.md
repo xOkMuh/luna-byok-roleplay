@@ -53,24 +53,23 @@ Luna features a professional, native AI generation pipeline completely integrate
 * **Autonomous Art Director:** You can request a "photo" of the current moment directly in the chat. The AI will read the ongoing scene, analyze the environment and its own current pose/clothing, and silently translate it into prompt tags to generate a highly accurate, lore-friendly image of that exact moment.
 * **Bring-to-Life Video Animation:** Turn generated moments into living scenes. Luna supports direct video generation endpoints with customizable duration and camera tracking controls right from the chat bubble.
 * **Full Native Voice Engine (STT & TTS):** Luna doesn't just read; she listens and speaks. Talk to the characters using your microphone (Speech-to-Text). The AI replies with native Audio Generation in the chat. You can assign individual voice models, adjust pitch (deep/high), and tweak speech speed for *every* character independently.
-* **Visual Reaction Loops:** Breaking the fourth wall, characters textually, physically, and emotionally react to their own newly generated photos inside the chat box.
 * **Granular Hardware & Modular Provider Slots:** Configure global image and audio generation engines using an agnostic slot manager. Plug in customized Base URLs (e.g., TensorArt or Novita).
 
 ![Global Image Settings Panel](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-26-01-49-13-671_com.muh.luna-edit.jpg)
 
 * **Global Identity Persistence:** Once saved, this visual DNA and core seed are respected globally throughout the entire application. Whether you are generating imagery inside the Textless RPG Adventure, playing a game of UNO, chatting in a multi-character Group Room, or interacting with Floating Overlays, the character's core facial identity remains 100% stable—autonomously varying only the background scenery, pose, and active emotional state.
-* **Seed-Locked Expression Slots:** Say goodbye to broken character consistency. Once your primary profile avatar is rendered, the engine freezes the generation seed. This unlocks a grid of 16 default emotion slots (Laughing, Sad, Grumpy, Blushing, etc.) and 8 custom expansion slots. You generate them one by one, ensuring total facial stability.
-* **Dynamic Mood Splitting:** During live text conversations, the engine tracks the character's internal psychological state and autonomously swaps their active profile avatar in real-time to match their current emotional reaction.
-* **Visual Reaction Loops:** The image generator reads the deep context of the chat thread. Breaking the fourth wall, characters textually, physically, and emotionally react to their own newly generated photos inside the chat box.
-* **Seed-Locked Expression Slots:** Say goodbye to broken character consistency. Once your primary profile avatar is rendered, the engine freezes the generation seed. This unlocks a grid of 16 default emotion slots (Laughing, Sad, Grumpy, Blushing, etc.) and 8 custom expansion slots.
-* **Chibi Companion Stickers:** Beyond facial expressions, the engine generates 8 unique super-deformed Chibi stickers (with or without background integration) to be used as dynamic reactions during specific Companion Mode events.
 
 ![The DNA Forge Menu](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-26-01-26-51-188_com.muh.luna.jpg)
 
-![Expression Matrix Grid](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-26-01-42-06-130_com.muh.luna.jpg)
+* **Visual Reaction Loops:** The image generator reads the deep context of the chat thread. Breaking the fourth wall, characters textually, physically, and emotionally react to their own newly generated photos inside the chat box.
 
 ![Character Photo Generation](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-26-01-04-39-360_com.muh.luna.jpg)
 ![Character Reaction to Photo](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-26-01-04-46-062_com.muh.luna.jpg)
+
+* **Seed-Locked Expression Slots:** Say goodbye to broken character consistency. Once your primary profile avatar is rendered, the engine freezes the generation seed. This unlocks a grid of 16 default emotion slots (Laughing, Sad, Grumpy, Blushing, etc.) and 8 custom expansion slots. You generate them one by one, ensuring total facial stability.
+* **Chibi Companion Stickers:** Beyond facial expressions, the engine generates 8 unique super-deformed Chibi stickers (with or without background integration) to be used as dynamic reactions during specific Companion Mode events.
+
+![Expression Matrix Grid](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-26-01-42-06-130_com.muh.luna.jpg)
 
 
 ### 🗺️ Endless Visual Novel Adventures (Textless Campaign Mode)
