@@ -52,8 +52,8 @@ Luna features a professional, native AI generation pipeline completely integrate
 
 * **Autonomous Art Director:** You can request a "photo" of the current moment directly in the chat. The AI will read the ongoing scene, analyze the environment and its own current pose/clothing, and silently translate it into prompt tags to generate a highly accurate, lore-friendly image of that exact moment.
 * **Bring-to-Life Video Animation:** Turn generated moments into living scenes. Luna supports direct video generation endpoints with customizable duration and camera tracking controls right from the chat bubble.
-* **Full Native Voice Engine (STT & TTS):** Luna doesn't just read; she listens and speaks. Talk to the characters using your microphone (Speech-to-Text). The AI replies with native Audio Generation in the chat. You can assign individual voice models, adjust pitch (deep/high), and tweak speech speed for *every* character independently.
-* **Granular Hardware & Modular Provider Slots:** Configure global image and audio generation engines using an agnostic slot manager. Plug in customized Base URLs (e.g., TensorArt or Novita).
+* **Seamless Voice API Integration (STT & TTS):** Luna doesn't just read; she listens and speaks. Talk to the characters using your microphone, and the app translates it via Speech-to-Text. When the AI replies, the engine silently routes the text to your configured Audio Generation endpoint (like Gemini TTS), returning a playable, high-quality voice response directly inside the chat's sleek inline player. You can assign individual voice models, adjust pitch, and tweak speech speed for *every* character independently.
+* **Modular Provider Slots:** Configure global image and audio generation engines using an agnostic slot manager. Plug in customized Base URLs (e.g., TensorArt, Novita, or Google Studio/Gemini).
 
 ![Global Image Settings Panel](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-26-01-49-13-671_com.muh.luna-edit.jpg)
 
