@@ -117,10 +117,11 @@ Want to see how deep the engine goes? Expand the sections below to reveal the ad
 <details>
 <summary><b>🔮 The Memory Factory: Crystallized vs. Archived Loops</b></summary>
 <ul dir="auto">
-<li><strong>Dual-Context Capture:</strong> The engine captures a dynamic "take last" window in private/group chats. The character then translates these raw factual records into a personal first-person diary entry matching their traits and tone.</li>
-<li><strong>3-Way Retrieval Protocol:</strong> Memories are injected into the active LLM context through three distinct neural pathways: Explicit Tag Matching, Semantic Passive Search, and the Spontaneous 'Archive' Chance (a 15% random chance to pull an Archive entry into conversation, simulating natural human recollection).</li>
+<li><strong>Dual-Context Capture:</strong> The engine captures a dynamic "take last" window (customizable from 6 to 30 messages) to forge detailed memories that complement the broader Sagas. In solo chats, it generates a personal, emotion-driven 1st-person memory. In Group/Adventure mode, it acts as an impartial 3rd-person observer, recording a factual, secret-free history of the event.</li>
+<li><strong>3-Way Retrieval Protocol:</strong> Memories are injected into the active LLM context through three distinct neural pathways: Explicit Tag Matching (sniper accuracy), Semantic Passive Search (contextual triggers), and the Spontaneous 'Archive' Route.</li>
+<li><strong>The Archive Route (Foggy Memories):</strong> Memories saved as "Archives" are isolated from passive and tag searches. Instead, they have a 15% random chance to surface organically. This simulates imperfect, dynamic human recollection, prompting the AI to bring up past events slightly out of the blue, encouraging natural "Oh, I remember that, but wasn't it..." conversations.</li>
 <li><strong>Dynamic Context Expiration (10-Turn TTL):</strong> Active memories remain in the context layer for a strict duration of 10 turns before expiring, preventing token bloat.</li>
-<li><strong>The Brain Monitor System:</strong> When a memory activates, a pulsing Brain Icon blinks. Clicking it allows the user to view the active entry, discard it entirely, or run a quick override to swap a false-positive semantic match.</li>
+<li><strong>The Subconscious Dashboard:</strong> When a memory activates, a pulsing Brain Icon blinks. Clicking it reveals the character's subconscious, letting you see the exact TTL of the memory, identify its origin (e.g., Intrusive Thought, Gossip, or Direct Mention), discard it entirely, or run a quick override to swap tags.</li>
 <li><strong>Audio Diaries:</strong> Play back any diary entry natively using high-quality Text-to-Speech (TTS) synthesis featuring dynamic ambient background tracks.</li>
 </ul>
 </details>
