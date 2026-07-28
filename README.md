@@ -23,9 +23,14 @@ Most apps hand you a blank text box. Luna gives you a forge. Define your charact
 ### 🗂️ Character Sheet Customization & Psychological Evolution
 Once a soul is forged, you gain access to an ultra-detailed, multi-page character sheet. You can granularly tweak their identity markers, custom speech profiles, and hidden traumas at any point during the campaign.
 
-* **Dynamic Companion Rules:** Characters operate on deep, multi-stage psychological tracking. A companion will automatically map out her responses through 7 distinct progression arcs based on your affinity score (0-1000 points).
+* **Dynamic Companion Rules:** Characters operate on deep, multi-stage psychological tracking. A companion will automatically map out her responses through 7 distinct progression arcs based on your affinity score (0-1000 points). For example, a demon companion will autonomously evolve:
+  * *Stage 1: Detachment (0-100 pts)* -> "I don't need anyone."
+  * *Stage 3: Territoriality (300-500 pts)* -> "He is mine. Mine alone."
+  * *Stage 6: The Fall (800-950 pts)* -> Intense insecurity and dark isolation loops if the user asks for space.
+  * *Stage 7: Rebirth (950-1000 pts)* -> Balancing defensive demon instincts with genuine emotional growth and mutual trust.
 * **Locked Emotional Nicknames:** Nicknames hold weight. You can assign specific emotional triggers (e.g., Hostility, Loyalty, Passion) to how a character reacts when you call them by a pet name. However, high-tier emotions like "Reverence" or "Passion" are strictly locked behind Affinity Stages and must be earned in roleplay.
 * **Granular Voice Tuning:** Assign distinct TTS (Text-to-Speech) languages, voice models, pitch ranges, and speech speeds to every individual card.
+* **Hardware & API Precision:** Dynamically toggle contextual image reactions, manage active hardware voice synthesis, and adjust model temperature (`Creativity` sliders) individually per character card.
 
 | Page 1: Identity & Origins | Page 2: Traits & Behaviors |
 |---|---|
