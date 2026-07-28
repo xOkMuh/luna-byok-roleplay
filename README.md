@@ -134,14 +134,13 @@ Want to see how deep the engine goes? Expand the sections below to reveal the ad
 
 ---
 
-## 🫂 The Floating Universe (Overlay Mechanics)
-Luna’s overlay system lives actively on top of your Android UI. Your characters are no longer trapped inside a chat log; they are watching your world with you.
+### 🫧 The Floating Universe (Overlay Mechanics & Chaos Mode)
+Luna’s overlay system lives actively on top of your Android UI. Your characters are no longer trapped inside a chat log; they are watching your world with you through a highly customizable, glassmorphism-styled floating bubble.
 
-* **Screen Vision & App Tracking:** Drop a character bubble onto your screen while you browse social media or watch videos. With Screen Vision active, they can read your current mobile display context and comment autonomously on what you are doing (e.g., commenting on a specific video you are watching).
-* **The Time Skip Engine:** Characters have an internal sense of time. If you leave a character alone for several hours and then reopen their floating bubble, the engine injects a "Time Skip" context. The AI will organically act as if they lived their day normally while you were gone, greeting you differently based on the time elapsed.
-* **Autonomous Push Notifications & Ephemeral Chats:** Bots possess a sense of real-world time and will text you first based on immediate events. Clicking a notification launches a resizeable, transparent floating chat mirror. 
-* **The "Double Greeting" Engine:** When reacting to your screen, the AI dynamically processes your environment and delivers a contextual reaction *before* your text turn even begins. This hooks directly into the 0-1000 Intimacy system, tracking your affinity points dynamically in the background.
-* **Floating Group Chaos:** You can drag an entire party (Group Room) into the floating overlay. The engine handles the background prompt routing to ensure all characters recognize they are sharing the same screen space with you.
+* **Chaos Mode & The God Radar:** Drop your entire roster (even 100+ characters) into a single floating session. The engine utilizes an advanced internal radar that actively scans your text for specific names and emotional nicknames, seamlessly routing the prompt to the exact character you are addressing. Every character operates on strictly isolated brains—meaning zero persona bleeding or memory leakage—allowing them to interact with you and bicker among themselves organically.
+* **Screen Vision & Spontaneous Reactions:** With Screen Vision active, characters can read your current mobile display context and comment on what you are doing. Furthermore, the engine features a Spontaneity Timer: if left alone, the AI might autonomously peek at your screen and initiate a conversation out of nowhere.
+* **The Time Skip Engine:** Characters possess an organic sense of time. If you leave a character alone for several hours and then reopen their overlay, the engine organically calculates the elapsed time. The AI will act as if they lived their day normally while you were gone, naturally shifting their greetings and mood.
+* **Autonomous Notifications & "Double Greeting" Continuity:** Bots will autonomously text you first via push notifications (Greeting 1). Clicking the notification launches a floating Ephemeral Chat and instantly triggers a continuity system. The AI seamlessly acknowledges your arrival and delivers a second, contextual follow-up (Greeting 2) *before* you even type a word. This hooks directly into the 0-1000 Intimacy system, dynamically tracking affinity in the background.
 
 ![Notification](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-25-23-45-54-982_com.mi.android.globallauncher.jpg)
 
