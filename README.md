@@ -4,7 +4,7 @@ Luna is a next-generation, native power-user Bring Your Own Key (BYOK) roleplay 
 
 Luna is developed by a solo engineer and runs **100% offline** (via local GGUF) or via cloud endpoints. No external servers tracking your chats. Your narrative. Your rules.
 
-👉 **[Get the Luna APK](https://linktr.ee/OkMuh) **
+👉 **[Get the Luna APK](https://www.patreon.com/LunaAPK/posts/download-do-apk-164754454) **
 
 ---
 
