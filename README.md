@@ -4,7 +4,7 @@ Luna is a next-generation, native power-user Bring Your Own Key (BYOK) roleplay 
 
 Luna is developed by a solo engineer and runs **100% offline** (via local GGUF) or via cloud endpoints. No external servers tracking your chats. Your narrative. Your rules.
 
-👉 **[Get the Luna Standalone APK on Patreon](https://www.patreon.com/LunaAPK) **
+👉 **[Get the Luna APK](https://linktr.ee/OkMuh) **
 
 ---
 
@@ -196,8 +196,6 @@ Luna’s overlay system lives actively on top of your Android UI. Your character
 
 ## 📦 How to Access Luna
 
-Luna contains **zero embedded ads, zero hidden paywalls, and zero recurring in-app subscriptions**. 
+Luna contains **zero embedded ads, zero hidden paywalls, and zero recurring in-app subscriptions**.
 
-By supporting this solo development project on Patreon, you instantly unlock the standalone optimized APK and our quick **5-Minute Survival Guide** to plug in your endpoints (OpenRouter, Novita, or local GGUF) and bring the engine to life.
-
-👉 **[Support the Developer & Download Luna Here](https://www.patreon.com/LunaAPK)**
+👉 **[Support the Developer & Download Luna Here](https://www.patreon.com/LunaAPK/posts/download-do-apk-164754454)**
