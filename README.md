@@ -41,10 +41,10 @@ Once a soul is forged, you gain access to an ultra-detailed, multi-page characte
 | ![Sheet Part 3](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-26-01-20-18-270_com.muh.luna.jpg) | ![Sheet Part 4](https://github.com/xOkMuh/luna-byok-roleplay/blob/main/Screenshot_2026-07-26-01-20-40-291_com.muh.luna.jpg) |
 
 * **Dynamic Companion Rules:** Under the hood, characters operate on deep, multi-stage psychological tracking. For example, a demon companion will automatically map out her responses through 7 distinct progression arcs based on your affinity score (0-1000):
-  * *Stage 1: Detachment (0-100 pts)* -> "I don't need anyone."
-  * *Stage 3: Territoriality (300-500 pts)* -> "He is mine. Mine alone."
-  * *Stage 6: The Fall (800-950 pts)* -> Intense insecurity and dark isolation loops if the user asks for space.
-  * *Stage 7: Rebirth (950-1000 pts)* -> Balancing defensive demon instincts with genuine emotional growth and mutual trust.
+  * *Stage 1: Detachment (0-150 pts)* -> "I don't need anyone."
+  * *Stage 3: Territoriality (301-450 pts)* -> "He is mine. Mine alone."
+  * *Stage 6: The Fall (751-900 pts)* -> Intense insecurity and dark isolation loops if the user asks for space.
+  * *Stage 7: Rebirth (901-1000 pts)* -> Balancing defensive demon instincts with genuine emotional growth and mutual trust.
 * **Hardware & API Precision:** Dynamically toggle contextual image reactions, manage active hardware voice synthesis, and adjust model temperature (`Creativity` sliders) individually per character card.
 
 ### 📸 Immersive Multimodal Interaction (Art, Video & Voice)
